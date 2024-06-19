@@ -11,6 +11,10 @@
 		BA0D887A2C23533C00C47717 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0D88792C23533C00C47717 /* ContentView.swift */; };
 		BA0D887C2C23533D00C47717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0D887B2C23533D00C47717 /* Assets.xcassets */; };
 		BA0D887F2C23533D00C47717 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0D887E2C23533D00C47717 /* Preview Assets.xcassets */; };
+		BA0D88882C2354B000C47717 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0D88872C2354B000C47717 /* Expense.swift */; };
+		BA0D888A2C235C6000C47717 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0D88892C235C6000C47717 /* Category.swift */; };
+		BA0D888C2C2360AC00C47717 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0D888B2C2360AC00C47717 /* ExpensesView.swift */; };
+		BA0D888E2C2360CB00C47717 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0D888D2C2360CB00C47717 /* CategoriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BA0D88792C23533C00C47717 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA0D887B2C23533D00C47717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA0D887E2C23533D00C47717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA0D88872C2354B000C47717 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		BA0D88892C235C6000C47717 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BA0D888B2C2360AC00C47717 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		BA0D888D2C2360CB00C47717 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 		BA0D88762C23533C00C47717 /* ExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
+				BA0D88852C23546800C47717 /* Model */,
+				BA0D88862C23547900C47717 /* View */,
 				BA0D88772C23533C00C47717 /* ExpenseTrackerApp.swift */,
 				BA0D88792C23533C00C47717 /* ContentView.swift */,
 				BA0D887B2C23533D00C47717 /* Assets.xcassets */,
@@ -65,6 +75,24 @@
 				BA0D887E2C23533D00C47717 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA0D88852C23546800C47717 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA0D88872C2354B000C47717 /* Expense.swift */,
+				BA0D88892C235C6000C47717 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA0D88862C23547900C47717 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA0D888B2C2360AC00C47717 /* ExpensesView.swift */,
+				BA0D888D2C2360CB00C47717 /* CategoriesView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0D88882C2354B000C47717 /* Expense.swift in Sources */,
 				BA0D887A2C23533C00C47717 /* ContentView.swift in Sources */,
+				BA0D888E2C2360CB00C47717 /* CategoriesView.swift in Sources */,
 				BA0D88782C23533C00C47717 /* ExpenseTrackerApp.swift in Sources */,
+				BA0D888C2C2360AC00C47717 /* ExpensesView.swift in Sources */,
+				BA0D888A2C235C6000C47717 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
